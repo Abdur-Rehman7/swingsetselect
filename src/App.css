@@ -1,0 +1,94 @@
+.hero {
+  background-image: url(./assets/hero.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 665px;
+}
+
+.featured1 {
+  background-image: url(./assets/featured-1.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.featured2 {
+  background-image: url(./assets/featured-2.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.featured3 {
+  background-image: url(./assets/featured-3.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.featured4 {
+  background-image: url(./assets/featured-4.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.featured5 {
+  background-image: url(./assets/featured-5.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.featured6 {
+  background-image: url(./assets/featured-6.png);
+  background-size: cover;
+  height: 327px;
+}
+.featured7 {
+  background-image: url(./assets/featured-7.png);
+  background-size: cover;
+  height: 327px;
+}
+.featured8 {
+  background-image: url(./assets/featured-8.png);
+  background-size: cover;
+  height: 327px;
+}
+.golftraining {
+  background-image: url(./assets/golftraining.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 90%;
+}
+.newcollection1 {
+  background-image: url(./assets/newcollection-1.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.newcollection2 {
+  background-image: url(./assets/newcollection-2.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.newcollection3 {
+  background-image: url(./assets/newcollection-3.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.newcollection4 {
+  background-image: url(./assets/newcollection-4.jpg);
+  background-size: cover;
+  height: 327px;
+}
+.fotterimg {
+  background-image: url(./assets/fotterimg.jpg);
+  background-size: cover;
+  height: 554px;
+}
+.aboutus1 {
+  background-image: url(./assets/aboutus-1.jpg);
+  background-size: cover;
+  height: 460px;
+  opacity: 0.7;
+}
+.aboutus2 {
+  background-image: url(./assets/aboutus-2.jpg);
+  background-size: cover;
+  height: 460px;
+}
+.aboutus3 {
+  background-image: url(./assets/aboutus-3.jpg);
+  background-size: cover;
+  height: 460px;
+}
