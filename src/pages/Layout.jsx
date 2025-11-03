@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from "../assets/logo.svg"
 import { FaSearch } from "react-icons/fa";
-import bag from "../assets/bag.svg"
+import { RiShoppingBagLine } from "react-icons/ri";
 import FotterSection from "../component/Fottersection";
 
 
@@ -36,7 +36,7 @@ const Layout = () => {
       </nav>
       <div class="flex gap-3 mx-auto my-auto">
         <FaSearch size={24} />
-        <img src={bag} />
+        <RiShoppingBagLine size={24} />
       </div>
       </div>
 
