@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import logo from "../assets/logo.svg"
 import { FaSearch } from "react-icons/fa";
 import { RiShoppingBagLine } from "react-icons/ri";
-import FotterSection from "../component/Fottersection";
+import FotterSection from "../component/FotterSection";
 
 
 const Layout = () => {
