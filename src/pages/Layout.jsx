@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
-import Logo from "../assets/logo.svg"
-import Search from "../assets/search.svg"
-import Bag from "../assets/Bag.svg"
+import logo from "../assets/logo.svg"
+import search from "../assets/search.svg"
+import bag from "../assets/Bag.svg"
 import FotterSection from "../component/Fottersection";
 
 
@@ -13,7 +13,7 @@ const Layout = () => {
     </div>
     <div class="w-full grid grid-cols-3 gap-4 border-b border-[#00000033]">
       <div >
-      <img src={Logo}/>
+      <img src={logo}/>
       </div>
       <nav class="my-auto">
         <ul class="grid grid-cols-5 ">
@@ -35,8 +35,8 @@ const Layout = () => {
         </ul>
       </nav>
       <div class="flex gap-3 mx-auto my-auto">
-        <img src={Search} />
-        <img src={Bag} />
+        <img src={search} />
+        <img src={bag} />
       </div>
       </div>
 
