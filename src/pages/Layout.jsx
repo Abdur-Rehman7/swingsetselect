@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from "../assets/logo.svg"
-import search from "../assets/search.svg"
+import { FaSearch } from "react-icons/fa";
 import bag from "../assets/bag.svg"
 import FotterSection from "../component/Fottersection";
 
@@ -35,7 +35,7 @@ const Layout = () => {
         </ul>
       </nav>
       <div class="flex gap-3 mx-auto my-auto">
-        <img src={search} />
+        <FaSearch size={24} />
         <img src={bag} />
       </div>
       </div>
