@@ -1,0 +1,50 @@
+import { Outlet, Link } from "react-router-dom";
+import Logo from "../assets/logo.svg"
+import Search from "../assets/search.svg"
+import Bag from "../assets/Bag.svg"
+import FotterSection from "../component/Fottersection";
+
+
+const Layout = () => {
+  return (
+    <>
+    <div class="w-full text-center p-2 bg-[#00A736] text-white font-medium">
+      Free Shipping On $200 Shopping
+    </div>
+    <div class="w-full grid grid-cols-3 gap-4 border-b border-[#00000033]">
+      <div >
+      <img src={Logo}/>
+      </div>
+      <nav class="my-auto">
+        <ul class="grid grid-cols-5 ">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/shop">Shop</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/Aboutus">About us</Link>
+          </li>
+          <li>
+            <Link to="/contactus">Contact us</Link>
+          </li>
+        </ul>
+      </nav>
+      <div class="flex gap-3 mx-auto my-auto">
+        <img src={Search} />
+        <img src={Bag} />
+      </div>
+      </div>
+
+      <Outlet />
+
+      <FotterSection />
+    </>
+  )
+};
+
+export default Layout;
